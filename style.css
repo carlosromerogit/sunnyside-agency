@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    min-width: 340px;
+}
+
+/*
+ FONTS 
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+
+ */
+.header {
+    background-color: #3DBEFF;
+    padding: 1.6rem;
+}
+
+.header,
+.hero__section {
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.header__logo,
+.footer__logo,
+.hero__title,
+.feature-row__title,
+.feature-box__title,
+.testimonials__title,
+.testimonial__name {
+    font-family: 'Fraunces', serif;
+}
+
+.header__logo,
+.footer__logo {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.header__list--nav {
+    display: flex;
+    list-style: none;
+    font-size: 1.6rem;
+    gap: 3.2rem;
+}
+.header__list--nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__links--last a{
+ background-color: white;
+ color: #495057;   
+ font-weight: 600;
+ padding: 0.8rem 1.2rem ;
+ border-radius: 100px;
+}
+.mobile-icon{
+    display: none;
+}
+.mobile-icon svg{
+    width: 3.2rem;
+    height: 3.2rem;
+    cursor: pointer;
+
+}
+.hero__section {
+    background-image: url(./sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero__section .container {
+    padding: 4.8rem 0px;
+    text-align: center;
+    height: 100vh;
+}
+
+.hero__title {
+    font-size: 5.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.feature-row--left,
+.feature-row--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.feature-row--left {
+    padding: 0px 6.4rem;
+}
+
+.feature-row__title {
+    font-size: 4.4rem;
+    margin-bottom: 1.6rem;
+    color: #212529;
+    letter-spacing: -2px;
+}
+
+.feature-row__description,
+.feature-box__description {
+    color: #495057;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.feature-box__description {
+    font-size: 1.4rem;
+}
+
+.feature-row__link {
+    display: inline-block;
+    margin-top: 3.2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #212529;
+    border-bottom: 1.5px solid #212529;
+    cursor: pointer;
+}
+
+.feature-row__image {
+    width: 100%;
+}
+
+.feature-row--2 {
+    flex-direction: row-reverse;
+}
+
+.feature-container {
+    display: flex;
+}
+
+.feature-container img {
+    width: 100%;
+}
+
+.feature-box {
+    position: relative;
+    flex-basis: 50%;
+}
+
+.feature-box__content {
+    position: absolute;
+    bottom: 4.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.feature-box__title {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.testimonials__section {
+    padding: 9.6rem 0px;
+}
+
+.testimonials__title {
+    margin-bottom: 4.8rem;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #adb5bd;
+    letter-spacing: 2.5px;
+}
+
+.testimonials__row {
+    display: flex;
+}
+
+.testimonial {
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    flex-basis: 33.333333333333333333333333333333%;
+}
+
+.testimonial__image {
+    width: 6.2rem;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 2.4rem;
+}
+
+.testimonial__quote {
+    color: #495057;
+    margin-bottom: 1.6rem;
+}
+
+.testimonial__name {
+    color: #343a40;
+    font-weight: 600;
+}
+
+.testimonial__job {
+    color: #99aabb;
+}
+
+.gallery__section {
+    display: flex;
+}
+
+.gallery__section img {
+    width: 25%;
+}
+
+.footer {
+    padding: 9.6rem 0px;
+    background-color: #7CC6B5;
+    text-align: center;
+}
+
+.footer__logo {
+    color: #253b36;
+    font-size: 3.6rem;
+    font-weight: 900;
+    margin-bottom: 4.8rem;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+    margin-bottom: 3.2rem;
+}
+
+.footer__link {
+    color: #3e635b;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.footer__socials svg {
+    fill: #253b36;
+    width: 2.4rem;
+}
+
+.attribution {
+    text-align: center;
+}
+
+@media (max-width:58.43em){
+    html{
+        font-size: 56.25%;
+    }
+   
+}
+@media (max-width:52.68em){
+    html{
+        font-size: 50%;
+    }
+    .feature-row--left{
+        padding: 4.8rem;
+    }
+    .header__nav{
+        font-size: 1.8rem;
+    }
+ 
+}
+@media (max-width:45.18em){
+    html{
+        font-size: 56.25%;
+    }
+    .feature-row{
+        flex-direction: column;
+    }
+    .feature-row--left{
+        padding: 6.4rem;
+    }
+    .feature-container{
+        flex-direction: column;
+    }
+    .feature-box--1{
+        background-color: #8ED4C6;
+    }
+    .feature-box__title{
+        font-size: 3rem;
+    }
+    .feature-box__description{
+        font-size: 1.6rem;
+    }
+    .header__nav{
+        display: none;
+    }
+    .mobile-icon{
+        display: block;
+    }
+}
+@media (max-width: 40.62em) {
+    .testimonials__row{
+        flex-direction: column;
+    }
+    .testimonial{
+        padding: 2.4rem 9.6rem;
+    }
+}
+@media (max-width: 29em) {
+    html{
+        font-size: 56.25%;
+    }
+    .feature-box__content{
+        bottom: 5%;
+        padding: 1.6rem;
+        background-color: hsla(210, 11%, 15%, 0.555);
+    }
+    .feature-box__title{
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .feature-box__description{
+        color: white;
+    }
+    .testimonials__section{
+        padding: 8rem 0px;
+    }
+    .testimonial{
+        padding: 2.4rem 6.4rem;
+    }
+    .footer{
+        padding: 8rem 0px;
+    }
+}
+@media (max-width: 22em){
+   
+    html{
+        font-size: 56.25%;
+    }
+   } .testimonial{
+        padding: 2.4rem 4.8rem;
+    }
