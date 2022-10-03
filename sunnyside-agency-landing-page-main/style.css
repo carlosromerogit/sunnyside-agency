@@ -52,6 +52,7 @@ body {
 .testimonials__title,
 .testimonial__name {
     font-family: 'Fraunces', serif;
+    line-height: 1.1;
 }
 
 .header__logo,
