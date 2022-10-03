@@ -66,27 +66,31 @@ body {
     font-size: 1.6rem;
     gap: 3.2rem;
 }
+
 .header__list--nav a {
     text-decoration: none;
     color: white;
 }
 
-.header__links--last a{
- background-color: white;
- color: #495057;   
- font-weight: 600;
- padding: 0.8rem 1.2rem ;
- border-radius: 100px;
+.header__links--last a {
+    background-color: white;
+    color: #495057;
+    font-weight: 600;
+    padding: 0.8rem 1.2rem;
+    border-radius: 100px;
 }
-.mobile-icon{
+
+.mobile-icon {
     display: none;
 }
-.mobile-icon svg{
+
+.mobile-icon svg {
     width: 3.2rem;
     height: 3.2rem;
     cursor: pointer;
 
 }
+
 .hero__section {
     background-image: url(../sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
     background-size: cover;
@@ -277,84 +281,117 @@ body {
     text-align: center;
 }
 
-@media (max-width:58.43em){
-    html{
+@media (max-width:58.43em) {
+    html {
         font-size: 56.25%;
     }
 }
-@media (max-width:52.68em){
-    html{
+
+@media (max-width:52.68em) {
+    html {
         font-size: 50%;
     }
-    .feature-row--left{
+
+    .feature-row--left {
         padding: 4.8rem;
     }
-    .header__nav{
+
+    .header__nav {
         font-size: 1.8rem;
     }
- 
+
 }
-@media (max-width:45.18em){
-    html{
+
+@media (max-width:45.18em) {
+    html {
         font-size: 56.25%;
     }
-    .feature-row{
+
+    .feature-row {
         flex-direction: column;
     }
-    .feature-row--left{
+
+    .feature-row--left {
         padding: 6.4rem;
     }
-    .feature-container{
+
+    .feature-container {
         flex-direction: column;
     }
-    .feature-box--1{
+
+    .feature-box--1 {
         background-color: #8ED4C6;
     }
-    .feature-box__title{
+
+    .feature-box__title {
         font-size: 3rem;
     }
-    .feature-box__description{
+
+    .feature-box__description {
         font-size: 1.6rem;
     }
-    .header__nav{
+
+    .header__nav {
         display: none;
     }
-    .mobile-icon{
+
+    .mobile-icon {
         display: block;
     }
 }
+
 @media (max-width: 40.62em) {
-    .testimonials__row{
+    .testimonials__row {
         flex-direction: column;
+        gap: 2.4rem;
     }
-    .testimonial{
+
+    .testimonial {
         padding: 2.4rem 9.6rem;
     }
 }
+
 @media (max-width: 29em) {
-    .feature-box__content{
+    .feature-box__content {
         bottom: 5%;
         padding: 1.6rem;
         background-color: hsla(210, 11%, 15%, 0.555);
     }
-    .feature-box__title{
+
+    .feature-box__title {
         color: rgba(255, 255, 255, 0.9);
     }
-    .feature-box__description{
+
+    .feature-box__description {
         color: white;
     }
-    .testimonials__section{
+
+    .testimonials__section {
         padding: 8rem 0px;
     }
-    .testimonial{
+
+    .testimonial {
         padding: 2.4rem 6.4rem;
     }
-    .footer{
+
+    .footer {
         padding: 8rem 0px;
     }
 }
-@media (max-width: 22em){
-   
-   } .testimonial{
-        padding: 2.4rem 4.8rem;
+
+@media (max-width: 25em) {
+    .feature-row--left{
+        padding: 1.6rem 1.6rem 4.8rem 1.6rem;
     }
+    .testimonials__section {
+        padding: 4.8rem 0px;
+    }
+    .testimonials__row{
+    }
+    .testimonial {
+        padding: 2.4rem 1.6rem;
+    }
+    .footer{
+        padding:4.8rem 0px;
+    }
+}
