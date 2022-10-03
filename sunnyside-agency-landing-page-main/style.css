@@ -92,7 +92,7 @@ body {
 }
 
 .hero__section {
-    background-image: url(../sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-image: url(/images/desktop/image-header.jpg);
     background-size: cover;
     background-position: bottom;
 }
